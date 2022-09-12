@@ -3,29 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.img1 {
-    position:absolute;
-    width:20%;
-    height:80vh;
-    left: 0px;
-    top: 0px;
-    right:0px;
-    bottom:0px;
-    z-index: 1;
-    opacity:90%;
-}
-.img2 {
-    position:absolute;
-    width:20%;
-    height:80vh;
-    left: 1229px;
-    top: 0px;
-    right:1000px;
-    bottom:10px;
-    z-index: 1;
-    opacity:90%;
-}
 body{
+
     display: flex;
     justify-content: center;
     align-items: center;
