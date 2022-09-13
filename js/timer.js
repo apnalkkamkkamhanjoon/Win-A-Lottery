@@ -7,10 +7,10 @@ let x = setInterval(function(){
     min = time/60;
     sec = time % 60;
 
-    page.innerText = sec + "";
+    page.innerText = "생성중...(" + sec + ")";
     time--;
     if(time < 0){
         clearInterval(x);
-        page.innerHTML = randomIndex;
+        page.innerHTML = randomIndex.sort(function (f, s) { return f-s; });
     }
 },1000);
