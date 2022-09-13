@@ -3,11 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1{
+.randomnum{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    text-align: center;
     font-size: 40px;
+    font-weight: bolder;
 }
