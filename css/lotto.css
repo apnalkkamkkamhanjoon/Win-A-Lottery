@@ -11,7 +11,7 @@
     font-size: 40px;
     font-weight: bolder;
 }
-#refresh{
+.refresh{
     border: none;
     width: 50px;
     height: 50px;
@@ -21,7 +21,7 @@
     transform: translateX(50%);
 }
 @media(max-width:769px){
-    #refresh {
+    .refresh {
         transform: translateX(350%) translateY(1000%);
     }
 }
